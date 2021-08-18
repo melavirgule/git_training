@@ -1,5 +1,7 @@
 html{
     font-size: 62.5%;
+    margin: 0;
+    padding: 0;
 }
 
 .container{
@@ -10,6 +12,25 @@ h1{
     text-align: center;
     font-family: 'Style Script', cursive;
     font-size: 6rem;
+
+    /* border-image: linear-gradient(#3f5efb, #9a52b6, #fc466b, #fbfc46, #fc466b, #9a52b6, #3f5efb) 30;
+    border-style: solid;
+    border-image-width: 10px;
+    border-top:0;
+    border-left:0;
+    border-right:0; */
+}
+
+
+hr{
+    height: 5px;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(63,94,251,0.36714975845410625)), color-stop(14%, rgba(154,82,182,1)), color-stop(27%, rgba(252,70,107,0.3091787439613527)), color-stop(48%, rgb(252, 252, 70)), color-stop(70%, rgba(252,70,107,1)), color-stop(80%, rgba(154,82,182,1)), to(rgba(63,94,251,1)));
+    background: -o-linear-gradient(left, rgba(63,94,251,0.36714975845410625) 0%, rgba(154,82,182,1) 14%, rgba(252,70,107,0.3091787439613527) 27%, rgb(252, 252, 70) 48%, rgba(252,70,107,1) 70%, rgba(154,82,182,1) 80%, rgba(63,94,251,1) 100%);
+    background: linear-gradient(90deg, rgba(63,94,251,0.36714975845410625) 0%, rgba(154,82,182,1) 14%, rgba(252,70,107,0.3091787439613527) 27%, rgb(252, 252, 70) 48%, rgba(252,70,107,1) 70%, rgba(154,82,182,1) 80%, rgba(63, 94, 251, 0.705) 100%);
+    border: none;
+
+    width: 100%;
+    margin: 0 !important;
 }
 
 .text_container{
