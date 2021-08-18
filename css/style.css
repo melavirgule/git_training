@@ -12,12 +12,31 @@ h1{
     font-size: 6rem;
 }
 
+.text_container{
+    display: flex;
+
+}
+
+p{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
 .p1{
     max-width: 550px;
     padding-top: 50px;
-    font-family: 'Space Grotesk', sans-serif;
+    margin: 0;
     font-size: 2rem;
     text-align: justify;
+}
+
+
+.p2{
+    /* max-width: 300px;
+    margin: 0; */
+    text-align: right;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+    font-size: 4.5rem;
 }
 
 img{

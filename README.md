@@ -1,0 +1,1 @@
+Ceci est un entrainement pour l'utilisation de git.
